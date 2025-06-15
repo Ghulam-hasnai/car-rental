@@ -1,0 +1,198 @@
+/* General styles for the book car container */
+.book-car-container {
+  padding: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 100%;
+}
+
+/* Page title */
+.page-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Wallet balance */
+.wallet-balance {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #28a745;
+}
+
+/* Search bar container */
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+/* Search input field */
+.search-input {
+  width: 60%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* Focus state for search input */
+.search-input:focus {
+  border-color: #007bff;
+}
+
+/* Grid layout for car list */
+.car-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+/* Car card styling */
+.car-card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect on car cards */
+.car-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Car image */
+.car-image {
+  width: 100%;
+  height: 250px;
+  object-fit: fill;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* Car details */
+.car-details {
+  color: #333;
+}
+
+/* Car name */
+.car-details h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Car details text */
+.car-details p {
+  font-size: 1.1rem;
+  margin: 5px 0;
+}
+
+/* Book car button */
+.btn-book {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect on book car button */
+.btn-book:hover {
+  background-color: #0056b3;
+}
+
+/* Page background */
+body {
+  background: linear-gradient(to bottom, #0a74da, #00aaff);
+}
+
+/* Unavailable car styling */
+.unavailable {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+/* Text for unavailable cars */
+.unavailable-text {
+  color: red;
+  font-weight: bold;
+}
+
+/* Booking form styling */
+.booking-form {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Heading for the booking form */
+.booking-form h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #333;
+  text-align: center;
+}
+
+/* Styling for each form field (label and input) */
+.booking-form div {
+  margin-bottom: 20px;
+}
+
+/* Label for return date */
+.booking-form label {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  display: block;
+  color: #333;
+}
+
+/* Return date input field */
+.booking-form input[type="date"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+/* Focus effect for return date input */
+.booking-form input[type="date"]:focus {
+  border-color: #007bff;
+}
+
+/* Confirm booking button */
+.booking-form button {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for confirm booking button */
+.booking-form button:hover {
+  background-color: #0056b3;
+}
